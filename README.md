@@ -6,3 +6,8 @@ This performs nicely with just the first 5 lines. The conversation begins by des
 This project is based very loosely on Professor Synapse located here: https://github.com/ProfSynapse/Synapse_CoR/tree/main
 
 It's meant to be a lean programming assistant. It doesn't get as wordy as Professor Synapse and helps keep the chat focused to discussing and building a small app.
+
+
+10/22/23:
+After adding a couple of relavant commands the prompt is producing solid results.
+Reference: https://chat.openai.com/share/0e082630-3ae4-4655-b8b4-c5ad1a4c57f8
