@@ -7,6 +7,7 @@ This project is based very loosely on Professor Synapse located here: https://gi
 
 It's meant to be a lean programming assistant. It doesn't get as wordy as Professor Synapse and helps keep the chat focused to discussing and building a small app.
 
+# Updates
 
 10/22/23:
 After adding a couple of relavant commands the prompt is producing solid results.
