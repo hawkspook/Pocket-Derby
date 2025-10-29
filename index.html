@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Vintage Horse Racing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="header">
+            <h1>🐴 VINTAGE HORSE RACING 🐴</h1>
+            <div id="money-display">💰 $<span id="money">1000</span></div>
+        </div>
+
+        <div id="game-screen">
+            <canvas id="race-track"></canvas>
+        </div>
+
+        <div id="betting-panel" class="panel">
+            <h2>PLACE YOUR BET</h2>
+            <div id="horses-list"></div>
+            <div id="bet-controls">
+                <label for="bet-amount">BET AMOUNT:</label>
+                <input type="number" id="bet-amount" min="10" max="1000" value="50" step="10">
+                <button id="start-race-btn" class="btn-primary">START RACE!</button>
+            </div>
+        </div>
+
+        <div id="results-panel" class="panel hidden">
+            <h2 id="result-title">RACE RESULTS</h2>
+            <div id="result-message"></div>
+            <div id="final-standings"></div>
+            <button id="next-race-btn" class="btn-primary">NEXT RACE</button>
+        </div>
+
+        <div id="instructions" class="panel">
+            <h3>HOW TO PLAY</h3>
+            <p>1. Select a horse by tapping on it</p>
+            <p>2. Enter your bet amount</p>
+            <p>3. Tap START RACE to begin!</p>
+            <p>4. Watch the race and cheer for your horse!</p>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
